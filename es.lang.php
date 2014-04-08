@@ -4,7 +4,7 @@
 // Spanish keys
 //
 // Author: Olivier Hory
-// Contributors: Ghislain Berthelet
+// Contributors: Lizeth Almaguer, Ghislain Berthelet
 // ------------------------------------------------------------------------------
 // This file is part of Earliz Translations.
 //

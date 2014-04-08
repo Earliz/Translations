@@ -5,12 +5,12 @@ Translations of the Earliz software. Push your language!
 
 ## Work in progress
 
-	* DE - German
-	* PT - Portugese (Brazil)
+   * DE - German
+   * PT - Portugese (Brazil)
 
 ## Key format
 
-Localization files contain a PHP array "$t" of all translation keys. The basic format of a key is th
+Localization files contain a PHP array "$t" of all translation keys. The basic format of a key is the format of a PHP array item.
 ```php
 $t['home'] = "Home";
 ```
@@ -35,9 +35,27 @@ $t['invite_sentence'] = 'You\'ve been invited to this project';
 
 When translating Earliz, you can add comments to inform other contributors about the advancement of you translation. We define some standard rules to explain it :
 
-	* All following keys are not translated:
-	########################################### TRANSLATE ALL AFTER THIS LINE ###########################################
-	* Not translated key: // To translate
-	* Not sure about a translation: // To check
-	* Suggestion about possible improvement: // Check: ...
-	* Current format of the key doesn't work with the language: // Dev require: ...
+   * All following keys are not translated:
+```php
+########################################### TRANSLATE ALL AFTER THIS LINE ###########################################
+```
+   * Not translated key: _// To translate_
+   * Not sure about a translation: _// To check_
+   * Suggestion about possible improvement: _// Check: ..._
+   * Current format of the key doesn't work with the language: _// Dev require: ..._
+
+## Licence
+(LGPL v2)
+
+Earliz Translations is free software: you can redistribute it and/or modify
+it under the terms of the GNU Lesser General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+(at your option) any later version.
+
+Earliz Translations is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU Lesser General Public License for more details.
+
+You should have received a copy of the GNU Lesser General Public License along
+with this Earliz Translations. If not, see <http://www.gnu.org/licenses/>.

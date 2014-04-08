@@ -4,7 +4,7 @@
 // Italian keys
 //
 // Author: Olivier Hory
-// Contributors: Ghislain Berthelet
+// Contributors: Giorgio Milani, Ghislain Berthelet
 // ------------------------------------------------------------------------------
 // This file is part of Earliz Translations.
 //
