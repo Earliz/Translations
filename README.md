@@ -10,7 +10,7 @@ Translations of the Earliz software. Push your language!
 
 ## Key format
 
-Localization files contain a PHP array "$t" of all translation keys. The basic format of a key is the format of a PHP array item.
+Localization files contain a PHP array "$t" of all translation keys. The basis format of a key is the format of a PHP array item.
 ```php
 $t['home'] = "Home";
 ```

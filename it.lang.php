@@ -21,7 +21,7 @@
 // You should have received a copy of the GNU Lesser General Public License along
 // with this Earliz Translations. If not, see <http://www.gnu.org/licenses/>.
 // ------------------------------------------------------------------------------
-// Copyright (c) Earliz SAS
+// Copyright (c) Earliz
 
 /** Errors */
 $t['error_404'] = "Errore 404: questa pagina non esiste";
@@ -473,7 +473,7 @@ $t['public_member_explanation'] = 'Questo progetto è pubblico : devi soltanto c
 $t['private_member_explanation'] = 'Questo progetto è privato. Per accedere è necessario richiedere l\'autorizzazione all\'amministratore del progetto. Facendo ciò, l\'amministratore riceverà in tempo reale la tua richiesta.';
 $t['blocked_member_explanation'] = 'Il tuo accesso è stato bloccato dall\'amministratore';
 $t['administrator'] = 'Amministratore';
-$t['member'] = 'Membro';
+$t['member'] = 'Partecipante';
 $t['observer'] = 'Osservatore';
 $t['make_admin'] = 'Rendi amministratore';
 $t['block_user'] = 'Bloccare utente';
@@ -1480,5 +1480,16 @@ $t['copy_done'] = "Copia completata";
 $t['send_to'] = "Inviare a";
 $t['subject_send_obj'] = '{1} ti invia "{2}"';
 $t['mail_send_obj'] = "{1} ha condiviso questo elenco con te su Earliz:";
+
+$t['click_to_remove'] = "Fai clic per cancellare";
+$t['confirm_delete_dep'] = "Vuoi cancellare definitivamente questa dipendenza?";
+$t['confirm_delete_doc'] = "Vuoi cancellare definitivamente questo documento?";
+$t['confirm_delete_model'] = "Vuoi cancellare definitivamente questo modello?";
+$t['no_members_invite_to_add'] = "È necessario invitare membri nell'area di lavoro per aggiungerli ai tuoi progetti.";
+
+$t['dependencies'] = "Dipendenze";
+$t['advanced_search_option'] = "Ricerca avanzata nei documenti";
+$t['advanced_search_option_info'] = "Dopo l'attivazione, alcuni minuti sono necessari prima che questa opzione sia completamente disponibile.";
+$t['end_date'] = "Data di fine";
 
 ?>

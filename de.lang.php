@@ -21,7 +21,7 @@
 // You should have received a copy of the GNU Lesser General Public License along
 // with this Earliz Translations. If not, see <http://www.gnu.org/licenses/>.
 // ------------------------------------------------------------------------------
-// Copyright (c) Earliz SAS
+// Copyright (c) Earliz
 
 /** Errors */
 $t['error_404'] = "404: Diese Seite existiert nicht";
@@ -1480,5 +1480,16 @@ $t['copy_done'] = "Copy done";
 $t['send_to'] = "Send to";
 $t['subject_send_obj'] = '{1} send you "{2}"';
 $t['mail_send_obj'] = "{1} shared this list with you on Earliz:";
+
+$t['click_to_remove'] = "Click to remove";
+$t['confirm_delete_dep'] = "Do you really want to remove this dependence?";
+$t['confirm_delete_doc'] = "Do you really want to remove this document?";
+$t['confirm_delete_model'] = "Do you really want to remove this model?";
+$t['no_members_invite_to_add'] = "You have to invite members in your workspace to be able to add them in your projects.";
+
+$t['dependencies'] = "Dependencies";
+$t['advanced_search_option'] = "Advanced search inside documents";
+$t['advanced_search_option_info'] = "After activation, few minutes are necessary before this option is completely available.";
+$t['end_date'] = "End date";
 
 ?>

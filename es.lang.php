@@ -21,7 +21,7 @@
 // You should have received a copy of the GNU Lesser General Public License along
 // with this Earliz Translations. If not, see <http://www.gnu.org/licenses/>.
 // ------------------------------------------------------------------------------
-// Copyright (c) Earliz SAS
+// Copyright (c) Earliz
 
 /** Errors */
 $t['error_404'] = "404 : esta página no existe";
@@ -473,7 +473,7 @@ $t['public_member_explanation'] = 'Este proyecto está abierto al público, solo
 $t['private_member_explanation'] = 'Este proyecto es privado. Para acceder, se solicitará acceso instantaneamente al administrador. Solicita acceso';
 $t['blocked_member_explanation'] = 'Tu acceso ha sido bloqueado por un administrador';
 $t['administrator'] = 'Administrador';
-$t['member'] = 'Miembro';
+$t['member'] = 'Participante';
 $t['observer'] = 'Observador';
 $t['make_admin'] = 'Hacer administrador';
 $t['block_user'] = 'Bloquear usuario';
@@ -888,7 +888,7 @@ $t['date_deadline'] = 'd/m/Y';
 $t['date_deadline_short'] = 'd/m';
 $t['options'] = 'Opciones';
 $t['time'] = 'Tiempo';
-$t['deadline'] = 'Fecha Límite';
+$t['deadline'] = 'Fecha tope';
 
 $t['overview'] = 'Presentación';
 $t['demo'] = 'Demo';
@@ -1480,5 +1480,16 @@ $t['copy_done'] = "Copia completa";
 $t['send_to'] = "Enviar a";
 $t['subject_send_obj'] = '{1} te envía "{2}"';
 $t['mail_send_obj'] = "{1} ha compartido esta lista contigo en Earliz:";
+
+$t['click_to_remove'] = "Haz clic para borrar";
+$t['confirm_delete_dep'] = "¿Quieres borrar definitivamente esta dependencia?";
+$t['confirm_delete_doc'] = "¿Deseas borrar definitivamente este documento?";
+$t['confirm_delete_model'] = "¿Quieres borrar definitivamente este modelo?";
+$t['no_members_invite_to_add'] = "Debes invitar a miembros en tu espacio de trabajo para añadirlos a tus proyectos.";
+
+$t['dependencies'] = "Dependencias";
+$t['advanced_search_option'] = "Búsqueda avanzada dentro de los documentos";
+$t['advanced_search_option_info'] = "Después de la activación, se necesitan unos pocos minutos antes de que esta opción sea totalmente disponible.";
+$t['end_date'] = "Fecha de fin";
 
 ?>
