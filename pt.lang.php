@@ -87,7 +87,7 @@ $t['November'] = "November";
 $t['December'] = "December";
 
 /** Header & footer */
-$t['meta_home_title'] = "Simple & agile Project Management";
+$t['meta_home_title'] = "Easy & agile Project Management";
 $t['home'] = "Home";
 $t['notes'] = "Notes";
 $t['projects'] = "Projects";
@@ -473,7 +473,7 @@ $t['public_member_explanation'] = 'This project is open to everybody and you jus
 $t['private_member_explanation'] = 'This project is private. You have to request an access to the project administrator. He will be inform instantly of your request.';
 $t['blocked_member_explanation'] = 'Your access has been blocked by administrator';
 $t['administrator'] = 'Administrator';
-$t['member'] = 'Member';
+$t['member'] = 'Participant';
 $t['observer'] = 'Observer';
 $t['make_admin'] = 'Make admin';
 $t['block_user'] = 'Block user';
@@ -540,7 +540,7 @@ $t['product_backlog'] = 'Product backlog';
 $t['brainstorming'] = 'Brainstorming';
 $t['new_story'] = 'New story';
 $t['post_story'] = 'Post the story';
-$t['story_points'] = 'story points?';
+$t['story_points'] = 'Story points';
 $t['assign_to'] = 'assign to';
 $t['add_task'] = 'Add';
 $t['edit_backlog'] = 'Edit the backlog';
@@ -641,7 +641,7 @@ $t['at'] = "at";
 $t['save_event'] = "Save this event";
 $t['all_my_events'] = "All my events";
 
-$t['more_posts'] = "more posts";
+$t['more_posts'] = "More posts";
 $t['last_modification_at_by'] = "Last modification {1} at {2} by {3}";
 
 /* Column */
@@ -660,7 +660,7 @@ $t['import'] = "Import";
 $t['archives'] = "Archives";
 $t['archive_story'] = "Archive the story";
 $t['archive_goal'] = "Archive the goal";
-$t['more_archives'] = "more archives";
+$t['more_archives'] = "More archives";
 
 /** Workspace */
 $t['error_corp_name'] = "Fill the company name field";
@@ -942,6 +942,7 @@ $t['auto_add_to_project'] = 'Automatically add to the project';
 $t['auto_add_to_corp'] = 'Automatically add to {1}';
 $t['find_a_contact'] = "Find a contact";
 $t['import_employees'] = "Import members";
+$t['add_employees'] = "Add members";
 $t['add_members'] = "Add participants";
 $t['invite_to_join'] = "Invite to join {1}";
 
@@ -1015,6 +1016,7 @@ $t['drag_story_to_EPIC'] = 'Drag a story to this EPIC to associate them';
 $t['hours'] = 'Hours';
 $t['planned'] = 'Planned';
 $t['executed'] = 'Executed';
+$t['executed_time'] = 'Executed time';
 $t['estimated'] = 'Estimated';
 $t['drag_sprint_line'] = 'Drag the line below to select the stories associated to the sprint';
 $t['remaining_time'] = 'Remaining time';
@@ -1190,6 +1192,7 @@ $t['manage_the_teams'] = 'Manage teams';
 
 $t['and'] = 'and';
 $t['free_video_tutorials'] = 'Free video tutorials';
+$t['tutorials'] = 'Tutorials';
 
 $t['register_promo_sentence'] = 'Implement a continuous improvement process into all your projects:<ul><li>Team workload and planning management</li><li>Follow-up dashboards</li><li>Agile or Gantt project mode</li><li>Private and secured enterprise social network</li><li>Free video tutorials</li></ul>';
 
@@ -1292,33 +1295,37 @@ $t['task_done'] = '{1} task done';
 $t['tasks_done'] = '{1} tasks done';
 $t['no_task'] = 'no task';
 
-$t['freemium2_title'] = "<small>The Social Project <br>Management Software for an</small>Easy and Agile Teamwork";
-$t['freemium2_process_title'] = "Earliz, your project management and monitoring software";
-$t['freemium2_management'] = "Manage your projects intelligently";
-$t['freemium2_management_sentence'] = "Create your workspace, invite your team and immediately start your project by choosing a Gantt or an Agile management method. You can change the project method at any time.";
+$t['freemium2_title'] = "<small>The 1st SaaS Software <br>of Social Project Management to</small> Boost your Projects with Smart Data!";
+$t['freemium2_process_title'] = "Earliz, your online project management and monitoring software";
+$t['freemium2_seo_home_title'] = "Earliz - Online Project Management & Collaboration Software";
+$t['freemium2_management'] = "Manage your projects smartly";
+$t['freemium2_management_sentence'] = "Create your workspace, invite your team and immediately start your project in the Cloud by choosing a Gantt or an <a href=\"/en/projects/lean-agile-project-management\">Agile</a> management method. You can change the project method at any time.";
 $t['freemium2_monitoring'] = "Monitor your projects effortlessly";
-$t['freemium2_monitoring_sentence'] = "Automatic reports allow you to track the daily progress of your projects, team workload, time spent, as long as your own custom indicators.";
+$t['freemium2_monitoring_sentence'] = "Our Smart Data technology generates automatic reports to allow you to track the daily progress of your projects, team workload, time spent, as long as your own custom indicators.";
 $t['freemium2_collaboration'] = "Collaborate easily";
 $t['freemium2_collaboration_sentence'] = "With just one click you can send progress reports to managers, investors, or clients. Communicate with team members using chats, forums, and comments on projects.";
 $t['freemium2_mobile'] = "Take your projects wherever you go";
-$t['freemium2_mobile_sentence'] = "Earliz is a web solution designed for all devices.";
+$t['freemium2_mobile_sentence'] = "Earliz is a SaaS web-based solution designed for all devices.";
 $t['freemium2_reco'] = "They trust us";
 $t['freemium2_reco_sentence'] = "Teams from {1} countries use Earliz every day to help them collaborate and manage their projects.";
 $t['freemium2_title_press'] = 'They are talking about us';
 $t['discover_features'] = "Explore our features";
 $t['compare_premium_offer'] =  "Compare pricing plans";
 $t['discover_premium_offer'] = 'Discover our professional subscription plan for your project teams';
-$t['freemium2_ggdrive_dropbox'] = "Stay connected to all your favorite online services like Google Calendar, Google Drive or Dropbox";
+$t['freemium2_ggdrive_dropbox'] = "Stay connected to all your favorite Cloud services like Google Calendar, Google Drive or Dropbox";
 $t['freemium2_international'] = "Let team members pick their working language: <br>English, French, Spanish, or Italian.";
+$t['freemium2_data_fr'] = "Your SaaS software, your data and your documents are hosted in France!";
+$t['freemium2_data_eu'] = "Your SaaS software, your data and your documents are hosted in the EU!";
 $t['freemium2_dot_gantt'] = "Dynamic Gantt";
 $t['freemium2_dot_resources'] = "Team planning";
 $t['freemium2_dot_report'] = "Advanced reports";
 $t['freemium2_with_pro'] = "with our professional plan";
 
 $t['quote_netu'] = "I've found Earliz very intuitive and easy to use!";
-$t['quote_vincentd'] = "Earliz is the perfect tool to give visibility to my clients on the progress of their projects.";
+$t['quote_vincentd'] = "Earliz is the perfect SaaS tool to give visibility to my clients on the progress of their projects.";
 $t['quote_mariel'] = "Simple, responsive and functional! We use Earliz to monitor daily all our internal and customer projects.";
-$t['pricing_sentence'] = "Sign up for free to manage all your projects today";
+
+$t['pricing_sentence'] = "Sign up for free to manage all your projects in the Cloud today";
 $t['pricing_projects'] = "Agile or Classic project methods";
 $t['pricing_collaboration'] = "Collaboration tools: chats, forums...";
 $t['pricing_gantt'] = "Dynamic Gantt chart";
@@ -1331,34 +1338,37 @@ $t['more_users'] = "More users?";
 
 $t['questions_answers'] = "Frequently asked questions";
 $t['qa1'] = "How does the free version work?";
-$t['qa1_rep'] = "The free version allows you to manage an unlimited number of Agile or Classic projects, and to enjoy automatic progress reports at any time. You can invite up to 5 people in your workspace, and use all our collaborative tools to make teamwork simple and effective.";
+$t['qa1_rep'] = "The free version allows you to manage an unlimited number of Agile or Classic projects, and to enjoy automatic progress reports at any time. You can invite up to {1} people in your workspace, and use all our collaborative tools to make teamwork simple and effective.";
 $t['qa2'] = "Will I need any special software or browser?";
 $t['qa2_rep'] = "You do not need any special software or browser. A simple internet connection will allow you to manage all your projects, wherever you are.";
 $t['qa3'] = "Can I get invoiced instead of paying a monthly subscription?";
 $t['qa3_rep'] = "Of course! Just contact our sales department at <a href=\"mailto:sales@earliz.com\">sales@earliz.com</a>.";
 $t['qa4'] = "What specific skills are required to use Earliz?";
-$t['qa4_rep'] = "None! We designed Earliz to be simple and intuitive for all team members. Video tutorials are available at any time to explore all the features.";
+$t['qa4_rep'] = "None! We designed Earliz to be simple and intuitive for all team members. <a href=\"/en/tutorials\">Video tutorials</a> are available at any time to explore all the features.";
 $t['qa5'] = "Am I tied to a contract?";
 $t['qa5_rep'] = "There is no minimum contract period. You can suspend your account at any time.";
 $t['qa6'] = "How long does it take to start a project on Earliz?";
 $t['qa6_rep'] = "You can start managing your projects immediately after your sign-up. Invite your team, build the project structure in the \"Task Manager\" (or \"Backlog\"), assign tasks and well, it's done!";
-$t['qa7'] = "How often do you release new features?";
-$t['qa7_rep'] = "Almost every week! You always enjoy the latest version of the software.";
+$t['qa7'] = "How often do you release new features on the SaaS software?";
+$t['qa7_rep'] = "Almost every week! You always enjoy the latest version of the SaaS software.";
 $t['qa8'] = "Do you have support plans to help companies implement Earliz?";
 $t['qa8_rep'] = "Indeed! We can train your staff and come to your premises to help you implement Earliz effectively. Please contact us at the following address: <a href=\"mailto:sales@earliz.com\">sales@earliz.com</a>";
 
 $t['manage_your_projects'] = "Manage your projects";
-$t['myp_1'] = "Gantt / Agile";
+$t['myp_1'] = "<a href=\"/en/tutorials/planning-project-gantt\">Gantt</a> / <a href=\"/en/projects/lean-agile-project-management\">Agile</a>";
 $t['myp_1_sentence'] = "For each new project, choose between a Gantt (steps) or Agile (sprints) interface. You can change this project method at any time during your project.";
-$t['myp_2'] = "Task Management";
+$t['myp_2'] = "<a href=\"/en/tutorials/planning-project\">Task Management</a>";
 $t['myp_2_sentence'] = "Structure your project by listing the different steps (or stories) of your project and by dividing them into tasks.";
-$t['myp_3'] = "Board";
+$t['myp_3'] = "<a href=\"/en/tutorials/project-kanban-board\">Board</a>";
 $t['myp_3_sentence'] = "Manage your project daily using the board. Based on the Kanban method, the board shows the status of all tasks and their assignment to the project participants.";
 $t['myp_4'] = "Synchronisation";
 $t['myp_4_sentence'] = "The content of your project is automatically synced between all connected members.";
 $t['myp_5'] = "Notifications";
 $t['myp_5_sentence'] = "Notifications alert you of project updates.";
-$t['follow_your_projects'] = "Monitor your projects";
+$t['myp_alt_1'] = "Task Management";
+$t['myp_alt_2'] = "Board";
+$t['myp_alt_3'] = "Gantt";
+$t['follow_your_projects'] = "<a href=\"/en/tutorials/project-reports\">Monitor your projects</a>";
 $t['fyp_1'] = "Project Progression";
 $t['fyp_1_sentence'] = "Monitor daily the progress of your projects, the velocity of the team, and know at any time whether commitments will be kept.";
 $t['fyp_2'] = "Team Workload";
@@ -1372,14 +1382,17 @@ $t['fyp_5_sentence'] = "For each report, you can easily specify which members of
 $t['work_in_team'] = "Teamwork";
 $t['wit_1'] = "Newsfeed";
 $t['wit_1_sentence'] = "Follow all the news of your workspace, contacts, and projects.";
-$t['wit_2'] = "Dashboard";
+$t['wit_2'] = "<a href=\"/en/tutorials/home\">Dashboard</a>";
 $t['wit_2_sentence'] = "Get an immediate summary of what you planned for the day: meetings, tasks, and project deadlines.";
-$t['wit_3'] = "Chats and Discussion Forums";
+$t['wit_3'] = "<a href=\"/en/tutorials/project-discussions\">Chats and Discussion Forums</a>";
 $t['wit_3_sentence'] = "Debate topics linked to your projects or workspace in discussion forums and chats.";
-$t['wit_4'] = "Document sharing";
+$t['wit_4'] = "<a href=\"/en/tutorials/documents\">Document sharing</a>";
 $t['wit_4_sentence'] = "Store your documents in the Earliz workspace and make them available to team members.";
-$t['wit_5'] = "Planning";
+$t['wit_5'] = "<a href=\"/en/tutorials/team-planning\">Planning</a>";
 $t['wit_5_sentence'] = "Create teams, assign them to projects and manage the planning of each participant.";
+$t['wit_alt_1'] = "Planning";
+$t['wit_alt_2'] = "Dashboard";
+$t['wit_alt_3'] = "Document sharing";
 
 $t['error_x'] = "{1} error: {2}";
 $t['refresh_msg'] = "New data available. Refresh?";
@@ -1419,11 +1432,11 @@ $t['x_new'] = '{1} new';
 $t['1_time_to_fill'] = '{1} time to fill';
 $t['x_times_to_fill'] = '{1} times to fill';
 
-$t['msg_pro_gantt'] = "Dynamic Gantt is only available within the Pro subscription plan.";
-$t['msg_pro_load_report'] = "Workload report is only available within the Pro subscription plan.";
-$t['msg_pro_time_report'] = "Time tracking report is only available within the Pro subscription plan.";
-$t['msg_pro_kpi_report'] = "Custom indicators are only available within the Pro subscription plan.";
-$t['msg_pro_planning'] = "Advanced planning is only available within the Pro subscription plan.";
+$t['msg_pro_gantt'] = "The dynamic Gantt is only available within the Pro subscription plan.";
+$t['msg_pro_load_report'] = "The workload report is only available within the Enterprise subscription plan.";
+$t['msg_pro_time_report'] = "The time tracking report is only available within the Enterprise subscription plan.";
+$t['msg_pro_kpi_report'] = "The custom indicators are only available within the Enterprise subscription plan.";
+$t['msg_pro_planning'] = "The advanced planning is only available within the Pro subscription plan.";
 $t['msg_pro_before_trial'] = "Enjoy <strong>for free</strong> all Pro features for 1 week!";
 $t['msg_pro_after_trial'] = "Your discovery offer is now closed. Subscribe now to a Professional plan to continue to enjoy all advanced features.";
 
@@ -1491,5 +1504,266 @@ $t['dependencies'] = "Dependencies";
 $t['advanced_search_option'] = "Advanced search inside documents";
 $t['advanced_search_option_info'] = "After activation, few minutes are necessary before this option is completely available.";
 $t['end_date'] = "End date";
+
+$t['this_project_is_personal'] = 'This project is personal';
+$t['bill_x_available'] = "The bill {1} is available";
+$t['bill_x_available_msg'] = "Your Earliz Pro subscription for an amount of {1} VAT inc. will be taken on your bank account.";
+$t['no_goal_pin_on_board'] = "You have to pin {1} goals in the task manager to display them on this board.";
+$t['msg_pro_multigantt'] = "Overall schedule is only available within the Pro subscription plan.";
+$t['planning_multigantt'] = "Schedule";
+$t['hide_details'] = 'Hide details';
+
+$t['archive_project'] = 'Archive this projet';
+$t['confirm_archive_project'] = "You are about to <strong>archive</strong> this project and all its content. Confirm the archiving?";
+$t['unarchive_project'] = 'Reactivate this project';
+$t['confirm_unarchive_project'] = "You are about to <strong>reactivate</strong> this project. Continue?";
+$t['my_archived_projects'] = "My archived projects";
+$t['no_project_archived'] = "No project is currently archived";
+
+$t['access_project'] = 'Access to my project';
+$t['new_event'] = "New event";
+
+$t['quick_start'] = "Quick start";
+
+$t['tuto_index_desc'] = "Discover the social project management by Earliz thanks to a set of free tutorials. Browse our Gantt or Agile project management and our collaboration tools: comments, chat, discussions and documents.";
+
+$t['tuto_home_title'] = "Your Online Project Management Homepage";
+$t['tuto_home_desc'] = "The online project management homepage provides you a view of all project deadlines, project newsfeed and project tasks to be done.";
+$t['tuto_home_intro'] = "Each time you connect to Earliz, the workspace homepage will provide you a synthetic view of all your current online projects:";
+$t['tuto_home_step1'] = "On the top left side of your online project management homepage, you get an immediate summary of all important online project deadlines and meetings that will occur during the day. You can access all your online project details just by clicking on the \"all my events\" link, or choose to add new ones by clicking on \"enter the name of the event\".";
+$t['tuto_home_step2'] = "On the lower left side of your online project management homepage, you will find a project newsfeed that will gather all the latest news from other workspace members. You can comment project tasks or goals directly from this project newsfeed, or access the related project tasks just by clicking on their names.";
+$t['tuto_home_step3'] = "On the right side of your online project management homepage, you will see a real time summary of your project tasks to be done, in progress or already finished. If a new task has been assigned to you, an alert will immediately warn you and indicate which online project has been modified. If a project task has been done without indicating the amount of time spent, a small reminder will be shown on it.";
+
+$t['tuto_create_project_title'] = "Create your Projects";
+$t['tuto_create_project_desc'] = "Use our project management tool to create your own online projects and choose between a planning or an agile project organization.";
+$t['tuto_create_project_intro'] = "Using our project management tool, create your own online project in only 3 clicks:";
+$t['tuto_create_project_step1'] = "Click on the \"projects\" button in the left menu. You will find on this page the list of the workspace projects you are allowed to access. If you are a workspace administrator, you can access all online projects by clicking on the \"all projects\" link.";
+$t['tuto_create_project_step2'] = "Click on \"create a new project\". Add a project name, a project logo, and choose the kind of project organization that best fits your needs. You will be the only one that can access this project until you add new project participants. However, if you don’t want the workspace administrator to see your projects, click on \"this project is personal\".";
+$t['tuto_create_project_step3'] = "The \"planning\" project organization will allow you to manage your project using dates and milestones. A project Gantt chart will be available to break your project into steps and goals. On the other hand, the \"agile\" project organization will be useful to an IT project requiring sprints and backlogs. The project will then be divided into sprints and EPIC.";
+
+$t['tuto_agile_project_title'] = "Manage your Project Backlog";
+$t['tuto_agile_project_desc'] = "The project backlog helps you to create project EPIC, users stories, and to sort user stories by complexity points.";
+$t['tuto_agile_project_intro'] = "The backlog page helps you to structure your agile project management.  To access it, click on the \"backlog\" tab on the top of your project page.";
+$t['tuto_agile_project_step1'] = "First, create a project EPIC. An EPIC will help you to sort by category all your project user stories to gain in productivity while performing your agile project management. An EPIC will be displayed as a folder that you will be able to fill in with user stories.";
+$t['tuto_agile_project_step2'] = "In each EPIC, you can add user stories. In an agile project management, a user story describes a user need. You can start by \"As a user, I would like to\" and then add a feature. Complete the user story description and click on \"create\" to pin it on the Kanban board.";
+$t['tuto_agile_project_step3'] = "In an agile project management, you can assess each user story complexity in points.  Use the Fibonacci sequence and sort your user stories. The more points the user story gets, the more complex it is.";
+$t['tuto_agile_project_step4'] = "To associate a user story with an EPIC, click on the grip on the right side of the user story, slide it slowly and drop it right above the selected EPIC. To display all users stories within an EPIC, just click on it. The EPIC will act as a folder for user stories.";
+
+$t['tuto_agile_project_sprint_title'] = "Manage Agile Sprint";
+$t['tuto_agile_project_sprint_desc'] = "Create an agile sprint from your backlog by selecting user stories and by clicking on the \"launch the sprint\" button.";
+$t['tuto_agile_project_sprint_intro'] = "Once your project backlog is completed, you can create a sprint. To manage an agile sprint, remain on the \"backlog\" page within your project:";
+$t['tuto_agile_project_sprint_step1'] = "Click on \"Sprint\". Specify the purpose and the duration of this new agile sprint. Usually, agile sprint duration goes from one week to one month. It depends of the number of people working on your agile project, their velocity and the project scope.";
+$t['tuto_agile_project_sprint_step2'] = "Select the user stories to be included into this sprint by sliding the bar down. Selected users stories are to be made by the team during this agile sprint. Use complexity points to assess how many users stories you can include into this agile sprint.";
+$t['tuto_agile_project_sprint_step3'] = "Click on \"launch the sprint\" to start it. All the selected user stories and tasks will be automatically displayed on the Kanban board. You cannot change the scope of your agile sprint as soon as it has been launched.";
+$t['tuto_agile_project_sprint_step4'] = "Manage your project tasks daily on the Kanban board. When all the agile sprint tasks have been completed, just click on \"stop the sprint\". You will be able to select the next tasks to be included during your following agile sprint.";
+
+$t['tuto_planning_project_title'] = "Manage your Project Breakdown Structure";
+$t['tuto_planning_project_desc'] = "Use project steps and project goals to create your own project breakdown structure and to assign project tasks to workspace members.";
+$t['tuto_planning_project_intro'] = "To organize easily your project breakdown structure and to adapt it to all your needs, you can create steps and goals directly on the \"task manager\" page.";
+$t['tuto_planning_project_step1'] = "A project \"Step\" represents a major phase of your project breakdown structure. It is, for example, a product development period. It will be displayed as a folder. To create one, select \"new step\", fill in the project step name and click on \"Add\".";
+$t['tuto_planning_project_step2'] = "A project \"Goal\" is a list of tasks to be completed during a project step. They can be summarized using action verbs, for example \"Do the client report\". To use them in your current project breakdown structure, select \"new goal\", enter a title and click on \"Add\".";
+$t['tuto_planning_project_step3'] = "In your project breakdown structure, goals and steps are linked. To attach a goal to a step, just slide it slowly using the grip on its right side, and drop it above the selected project step. It will be displayed as part of the project \"step\" folder.";
+$t['tuto_planning_project_step4'] = "Eventually, you can add more details on the goals to be performed using tasks. Open a project goal, enter a project task name and click on \"add\". Assign each of them to project members and pin the project goal (on the left side) to display these project tasks directly on the Kanban board.";
+
+$t['tuto_planning_project_gantt_title'] = "Project Gantt Charts and Project Deadlines";
+$t['tuto_planning_project_gantt_desc'] = "Manage project deadlines directly from the Gantt chart, sliding project bars and creating dependencies.";
+$t['tuto_planning_project_gantt_intro'] = "Use the dynamic project Gantt chart to manage easily all your project deadlines on Earliz directly from the \"Task Manager\" page.";
+$t['tuto_planning_project_gantt_step1'] = "Change project starting and ending dates within project step or goal settings by clicking on the \"view details\" button on their right side. The project Gantt chart is then automatically updated with new data.";
+$t['tuto_planning_project_gantt_step2'] = "If you modify the project planning directly on the project Gantt chart, by holding and moving bars, or if you create project dependencies by linking two bars, goal and step dates will be automatically updated. If you move a bar with project dependencies, the entire chart will be updated and provide you all the needed information about your next deadline.";
+
+$t['tuto_project_participants_title'] = "Manage Project Participants for a Productive Online Teamwork";
+$t['tuto_project_participants_desc'] = "Perform a productive online teamwork by inviting participants to your project and by defining their project status.";
+$t['tuto_project_participants_intro'] = "Earliz is designed for a productive online teamwork, helping you to manage your projects with other participants:";
+$t['tuto_project_participants_step1'] = "To invite friends or colleagues to join a productive online teamwork, click on \"Participants\" when you are connected to your current project. Add directly a workspace member or a team to your project using the \"Add participants\" button.";
+$t['tuto_project_participants_step2'] = "Choose the status of each project participant for this online teamwork: \"administrator\", \"member\" or \"observer\". Administrators can modify all project data. Members cannot access project settings. Observers can only see project reports they have been assigned to by administrators.";
+$t['tuto_project_participants_step3'] = "If needed, you can delete a project participant with a single click on the no-entry sign. This participant will then no longer be part of this project. However, he remains a member of your workspace so that you can invite him to another productive online teamwork when needed!";
+
+$t['tuto_project_kanban_board_title'] = "Manage your Daily Tasks using the Agile Kanban Board";
+$t['tuto_project_kanban_board_desc'] = "Use the Agile Kanban board to monitor your project tasks on a daily basis, and create new columns to best fit your project needs.";
+$t['tuto_project_kanban_board_intro'] = "On each project, whatever you are using a planning or agile organization, the Agile Kanban board helps you to monitor your daily tasks. To access it from your project space, just click on the \"Kanban\" tab.";
+$t['tuto_project_kanban_board_step1'] = "Each default column of the agile Kaban board represents a project task status: \"to do\", \"in progress\" and \"done\". When you pin a goal from the task manager, all the included tasks will be displayed on the agile kanban board. You can change each project task status by clicking on its grip and moving it to another column.";
+$t['tuto_project_kanban_board_step2'] = "If your process requires, you can add your own column in the agile kanban board, for example, a management validation or a technical test. Just click on \"new column\" and enter its name to fit you project process.";
+$t['tuto_project_kanban_board_step3'] = "Move or delete columns on the agile kanban board according to your own project process. When you delete a column, project tasks are automatically moved into the previous one, so that you will not loose any project information.";
+
+$t['tuto_project_comments_title'] = "Make a Comment on Project Tasks, Goals or Steps";
+$t['tuto_project_comments_desc'] = "All project participants can make a comment on project tasks, goals and steps, and share it with the entire project team.";
+$t['tuto_project_comments_intro'] = "All project participants can make a comment on project tasks or goals to share issues or questions with the whole project team.";
+$t['tuto_project_comments_step1'] = "To write a comment on a project task, click on the bubble button just next to the task name. You can comment the same way project goals and project steps. If a comment has already been added to a task, the bubble button will appear in red.";
+$t['tuto_project_comments_step2'] = "You will find logs of all modifications that have been made to this project task since its creation. Add your own comment in the lower part and click on \"post\". You can send a notification by email to the project team by checking the box below before posting.";
+$t['tuto_project_comments_step3'] = "If you click on the goal bubble button, you get an immediate overview of all comments that have been made on the project. Dates and hours of each comment are saved, as long as the name of the team member who posted it. All comments on projects will then appear on the team member newsfeed.";
+
+$t['tuto_project_brainstorming_title'] = "Keep Track of your Online Brainstorming Session";
+$t['tuto_project_brainstorming_desc'] = "Use notes and lists to save all your brainstorming session information, and create columns to best fit your project needs.";
+$t['tuto_project_brainstorming_intro'] = "The online brainstorming page helps you to organize all your project ideas and to share them with your project team.";
+$t['tuto_project_brainstorming_step1'] = "For each project, you can add lists and notes to keep all information about your brainstorming session. Just click on the selected icon and write down your text. If you choose to edit a list, all the lines will get a progression status that you will be able to modify when needed: \"to do\", \"in progress\", \"done\".";
+$t['tuto_project_brainstorming_step2'] = "Enter a title for each column. It can be, for example, the theme of your last brainstorming session. Create a new column by moving a note or a list to the right side of the online brainstorming page using the grip.";
+$t['tuto_project_brainstorming_step3'] = "Move an entire column to reorganize your board according to your project needs. Click on the grip on the right side of the column name and slide it where you need. All included information will be moved at the same time.";
+
+$t['tuto_project_discussions_title'] = "Improve Team Productivity with Project Messages";
+$t['tuto_project_discussions_desc'] = "Gain in productivity sending project message to the entire project team and keep all discussion threads into one place.";
+$t['tuto_project_discussions_intro'] = "One benefit of our online project management tool is the ability to send easily messages to all project participants and to record all discussion threads into one place.";
+$t['tuto_project_discussions_step1'] = "When you are connected to a project space, click on the envelope icon next to the project name. A window will open. Complete the title and write down your message to be sent to all project participants.";
+$t['tuto_project_discussions_step2'] = "Once sent, your message is available for all project participants. Just click on the \"discussions\" button in the left menu. You will not lose anymore time looking for old project emails, and your teamwork will gain immediately in productivity.";
+$t['tuto_project_discussions_step3'] = "All project participants can respond to your message, and choose whether or not to send an alert by email. A project message will only be displayed to project participants. Other workspace members will not be allowed to see it.";
+
+$t['tuto_project_reports_title'] = "Access Automatic Project Reports";
+$t['tuto_project_reports_desc'] = "Automatic project reports are generated for project team with all details about project progression, project time spent and team workload.";
+$t['tuto_project_reports_intro'] = "Our automatic reports generation will help you to monitor your project. All project reports are updated in real time using all your project information:";
+$t['tuto_project_reports_step1'] = "When you are connected to your project space, click on the project tab on the top menu. 4 standard project report templates are available for each one of your project and can be accessed at any time.";
+$t['tuto_project_reports_step2'] = "First, you will get different project charts about your current progression. These charts will give you details about team velocity, steps progression and flags to warn you if your deadlines cannot be kept.";
+$t['tuto_project_reports_step3'] = "Then, you can display work repartition and project team workload for a selected period of time. Red figures warn you about team overload and light blue about the fact that some resources are available for more tasks.";
+$t['tuto_project_reports_step4'] = "You can access project time sheets for a selected period of time. Use tabs to compare real time spent by your team on assigned tasks, to the allocated time you planned for them.";
+$t['tuto_project_reports_step5'] = "Eventually, you can create your own project custom indicators according to your specific needs. Click on \"new chart\", choose a name for the project chart and a specific goal in the future. When needed, teams will be able to their own data during the project progression.";
+$t['tuto_project_reports_step6'] = "You can pin selected project charts directly on your own homepage just by clicking on the icon next to the chart name. For each project report, you can select which project participants are allowed to access them, by clicking on the \"+\" icon.  By default, only project administrators are allowed to access all four reports.";
+
+$t['tuto_event_calendar_title'] = "Deadlines and Events follow-up with the Project Management Calendar";
+$t['tuto_event_calendar_desc'] = "Use the Project Management Calendar to create project events and to never miss project deadlines.";
+$t['tuto_event_calendar_intro'] = "Manage easily project events, and never forget anymore your project deadlines, thanks to the workspace project calendar:";
+$t['tuto_event_calendar_step1'] = "The upper left part of your workspace homepage allows you to see all the important events of your day, and to quickly create new project events inviting other workspace members.";
+$t['tuto_event_calendar_step2'] = "All next project events and deadlines are gathered into the \"events\" page. Just click on the \"events\" button in the left menu to access it. They will be displayed as a timeline.";
+$t['tuto_event_calendar_step3'] = "Sync your Google calendar account to add all you personal events into your workspace calendar. These private events will not be visible from other workspace members.";
+
+$t['tuto_documents_title'] = "Upload and Share Project Documents";
+$t['tuto_documents_desc'] = "You can add project documents to project goals and steps, and share them with all project participants.";
+$t['tuto_documents_intro'] = "During your projects, you can easily upload and share documents with all project participants and add them to goals and tasks:";
+$t['tuto_documents_step1'] = "Click on the task bubble button, and choose to share documents from Google Drive and Drop Box, or to upload them directly on Earliz. If you choose Google Drive or Dropbox, documents won’t be uploaded on Earliz, but will remain under the form of a link.";
+$t['tuto_documents_step2'] = "A paper clip appears to inform other project participants that a document has been added to a goal or a task. All project participant newsfeeds will be updated in real time.";
+$t['tuto_documents_step3'] = "These documents are also gathered into a dedicated folder. Click on the \"documents\" button in the left menu to view them. Project document folders are only accessible to project participants.";
+
+$t['tuto_create_team_title'] = "Project Team Creation and Management";
+$t['tuto_create_team_desc'] = "To save time on your project settings, create ad team, add project members and define their status.";
+$t['tuto_create_team_intro'] = "Save time while planning your projects by defining teams online. A team gathers different workspace members and can be directly assigned to a project.";
+$t['tuto_create_team_step1'] = "Go to the \"members\" page using the left menu. You need to be a workspace administrator to access this page. Click on \"create a new team\" and choose a name (based on team location, team function…)";
+$t['tuto_create_team_step2'] = "Fill in a team description to explain the purpose of the team to other workspace members, as well as the kind of projects they will be involved in… Or any other information you may find relevant to add.";
+$t['tuto_create_team_step3'] = "To add members, drag directly their photos on the newly created team. To edit their rights and display the settings, click on the project team. You can define a project leader that will then be able to change the team settings.";
+
+$t['tuto_team_planning_title'] = "Manage your Project Team Planning";
+$t['tuto_team_planning_desc'] = "Define team planning to estimate project deadlines and team workload, and to know all team members assignments.";
+$t['tuto_team_planning_intro'] = "You can define the planning of each project team member. This planning will then be used to automatically estimate project deadlines and team workload.";
+$t['tuto_team_planning_step1'] = "To manage your team planning, click on the \"members\" button on the left menu. To access it, you need to be the workspace administrator. Regular workspace member cannot manage project team planning.";
+$t['tuto_team_planning_step2'] = "Then, you have two different choices to fill in the planning: assign a default project to each member, or modify their schedules by selecting half-days or time periods. You can cancel or modify your choices at any time.";
+$t['tuto_team_planning_step3'] = "To get a full overview of project team planning, click on \"expand the planning\", navigate between project periods. You can see which people will be available in the future and all their current assignments.";
+
+$t['up_to_x_users'] = "Up to {1} users";
+$t['from_x_to_x_users'] = "From {1} to {2} users";
+$t['minimum_x_users'] = "Minimum {1} users";
+$t['per_user_month'] = "per user/month";
+$t['x_users_free_forever'] = "{1} users free forever";
+$t['all_inclusive'] = "all inclusive";
+$t['advanced_scheduling'] = "Advanced scheduling";
+$t['advanced_reports'] = "Advanced reports";
+$t['pricing_gantt_schedule'] = "Dynamic Gantt and Overall Schedule";
+$t['pricing_help_support'] = "Help & Support";
+$t['support_email'] = "Priority email";
+$t['support_hotline'] = "Hotline";
+$t['installation_on_site'] = "On-site installation";
+
+$t['extend_trial'] = "Extend the trial for 7 days";
+$t['nb_users'] = "Number of users";
+$t['billing_address'] = "Billing address";
+$t['means_of_payment'] = "Means of payment";
+$t['back'] = "Back";
+$t['msg_pro_velocity_chart'] = "The velocity chart is only available within the Pro subscription plan.";
+$t['msg_pro_progression_chart'] = "The project progression chart is only available within the Pro subscription plan.";
+$t['activate_entreprise_features'] = "Try Enterprise features";
+$t['upgrade_entreprise_solution'] = "Activate Enterprise features";
+$t['per'] = "per";
+
+$t['download_gantt'] = "Download the Gantt";
+$t['download_detailed_gantt'] = "Download the detailed Gantt";
+$t['folder'] = "Folder";
+$t['uploaded_documents'] = "Uploaded documents";
+
+$t['invite_observers'] = "Invite observers";
+$t['no_report_sentence'] = "You currently don't have the right to visualize the reports of this project.";
+
+$t['smart_data_title'] = "Social Project Management meets Smart Data";
+$t['smart_data_desc'] = "Earliz is a web-based SaaS project management software designed to manage projects in team with online collaboration and monitor projects in realtime thanks to the Smart Data technology.";
+$t['smart_data_desc2'] = "Our Smart Data algorithms calculate estimation of your delivery dates instantly and generate automatic reports: project progression, work load, timesheets, kpis...";
+
+$t['smd_1'] = "Gantt / Agile";
+$t['smd_2'] = "Task Management";
+$t['smd_3'] = "Project Progression";
+$t['smd_4'] = "Planning";
+$t['smd_5'] = "Team Workload";
+$t['smd_6'] = "Access Right Management";
+$t['smd_7'] = "Chats and Discussion Forums";
+$t['smd_8'] = "Document sharing";
+
+$t['tasks_of_the_day'] = "Tasks of the day";
+$t['private_task'] = "Private task";
+$t['add_private_task'] = "Add a private task";
+
+$t['budget'] = "Budget";
+$t['budget_in_projects'] = "Budget in projects";
+$t['references'] = "References";
+$t['projected'] = "Projected";
+$t['download_quotation'] = "Download the quotation";
+$t['billing_information'] = "Billing information";
+$t['customer_information'] = "Customer information";
+$t['your_information'] = "Your information";
+$t['bill_number'] = "Bill number";
+$t['quotation'] = "Quotation";
+$t['add_entry'] = "Add an entry";
+$t['edit_entry'] = "Edit the entry";
+$t['new_entry'] = "New entry";
+$t['from_existing_ref'] = "From an existing reference";
+$t['create_new_ref'] = "Create a new reference";
+$t['label'] = "Label";
+$t['unit_bill'] = "Unit of billing";
+$t['unit_example'] = "day, m², lb...";
+$t['unit_price'] = "Unit price";
+$t['price'] = "Price";
+$t['quantity'] = "Quantity";
+$t['save_entry'] = "Save the entry";
+$t['delete_entry'] = "Delete the entry";
+$t['error_label'] = "Fill the label";
+$t['error_unit'] = "Fill the unit";
+$t['error_unit_price'] = "Fill the unit price";
+$t['confirm_delete_entry'] = 'Do you really want to remove this entry and the associated values?';
+$t['add_previous_month'] = 'Add the previous month';
+$t['man_days'] = "man day";
+$t['team'] = 'Team';
+$t['edit_value'] = "Edit the value";
+$t['save_value'] = "Save the value";
+$t['keep_open'] = "Keep open";
+$t['information_quotation'] = "Additional information (quotation)";
+$t['information_bill'] = "Additional information (bill)";
+
+$t['notif_1'] = "{1} invite you to join the project {2}.";
+$t['notif_2'] = "You joined the project {2}.";
+$t['notif_3'] = "{1} updated the goal {2}.";
+$t['notif_4'] = "{1} commented on the goal {2}.";
+$t['notif_5'] = "{1} attached a document to the goal {2}.";
+$t['notif_6'] = "{1} updated the task {2}.";
+$t['notif_7'] = "{1} commented on the task {2}.";
+$t['notif_8'] = "{1} attached a document to the task {2}.";
+$t['notif_9'] = "{1} assigned you the task {2}.";
+$t['notif_10'] = "{1} posted the discussion {2}.";
+$t['notif_11'] = "{1} replied to the discussion {2}.";
+$t['notif_12'] = "{1} invite you to the event {2}.";
+$t['notif_13'] = "{1} will participate to the event {2}.";
+$t['notif_14'] = "{1} will not participate to the event {2}.";
+$t['notif_15'] = "Don't forget the event {2}!";
+
+$t['Enterprise'] = "Enterprise";
+$t['download_report'] = "Download the report";
+
+$t['import_external_project'] = "Import external project";
+$t['import_from_jira'] = "Import from JIRA";
+$t['go_to_jira_issue_nav'] = "Go to JIRA Issue Navigator";
+$t['filter_by_project'] = "Filter by project";
+$t['export_in_xml'] = "Export in XML";
+$t['save_file'] = "Save the file";
+$t['upload_file'] = "Upload the file";
+
+$t['sort'] = "Sort";
+$t['last_visit'] = "Last visit";
+
+$t['estimation_unit'] = "Estimation unit";
+$t['default'] = "Par défaut";
+$t['days'] = "Days";
+$t['d'] = "d";
+$t['tshirt_sizing'] = "T-shirt sizing";
 
 ?>
